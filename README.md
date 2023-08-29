@@ -1,8 +1,8 @@
-# Lord of the Rings SDK
+# SDK from Open API using Swagger
 
-# Project Name - Developer Instructions
+# SDK from Open API - Developer Instructions
 
-Welcome to the Project Name repository! This README provides you with instructions on how to use the provided Postman collection to interact with the API's `GenerateCode` endpoint.
+Welcome to the SDK from the Open API repository! This README provides instructions on using the provided Postman collection to interact with the API's `GenerateCode` endpoint.
 
 ## Getting Started
 
@@ -20,13 +20,13 @@ Welcome to the Project Name repository! This README provides you with instructio
 
 ## Using the Postman Collection
 Locate the Postman Collection:
-Inside the postman folder in this repository, you will find a Postman collection file named SDK Builder.postman_collection.json.
+Inside the Postman folder in this repository, you will find a Postman collection file named SDK Builder.postman_collection.json.
 
 Import the Collection into Postman:
 
 Open Postman.
 Click on "Import" in the top-left corner.
-Select the ProjectNameApi.postman_collection.json file from the postman folder and import it.
+Select the ProjectNameApi.postman_collection.json file from the Postman folder and import it.
 
 Select a file to upload into the API via Postman the files are located in the Assets folder 
 
