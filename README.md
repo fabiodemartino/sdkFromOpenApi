@@ -8,8 +8,8 @@ Welcome to the Project Name repository! This README provides you with instructio
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/hatchways-community/b42128ab6d6f49a9b7f9cff77670e227
-
+   git clone https://github.com/fabiodemartino/sdkFromOpenApi
+   
 2. Open the Solution and build
 3. Play the solution so that the Swagger API page will display in a browser instance
 
