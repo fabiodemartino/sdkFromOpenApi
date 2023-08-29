@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DemaSoft.API/.vs/DemaSoft.API/DesignTimeBuild
+/DemaSoft.API/.vs/DemaSoft.API/FileContentIndex
+/DemaSoft.API/.vs/DemaSoft.API/v17
+/DemaSoft.API/.vs/ProjectEvaluation
+/DemaSoft.API/.vs/ProjectEvaluation/demasoft.api.metadata.v7.bin
+/DemaSoft.API/bin/Debug/net6.0
+/DemaSoft.API/logs
+/DemaSoft.API/obj
+/DemaSoft.CodeGeneratorTests/bin/Debug/net6.0
+/DemaSoft.CodeGeneratorTests/obj
+/DemaSoft.Packager/obj/Debug/net6.0
+/DemaSoft.Packager/obj
+/DemaSoft.CodeGenerator/obj
+/DemaSoft.Packager/bin/Debug/net6.0
+/DemaSoft.CodeGenerator/bin/Debug/net6.0
+/DemaSoft.API/Uploads
+/DemaSoft.API/.vs/DemaSoft.API/config

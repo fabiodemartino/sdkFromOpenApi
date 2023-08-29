@@ -1,0 +1,86 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Lord of the Rings API",
+    "description": "",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "name": ""
+    },
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "host": "",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/v2/movie": {
+      "get": {
+        "description": "Returns all movies",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of movies",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/docs"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "docs": {
+      "type": "object",
+      "required": [
+        "_id",
+        "name"
+      ],
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "runtimeInMinutes": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "budgetInMillions": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "boxOfficeRevenueInMillions": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "academyAwardNominations": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "academyAwardWins": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "rottenTomatoesScore": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    }
+  }
+
+}

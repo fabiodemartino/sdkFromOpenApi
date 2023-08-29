@@ -1,0 +1,74 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Lord of the Rings API",
+    "description": "",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "name": ""
+    },
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "host": "",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/v2/quote": {
+      "get": {
+        "description": "Returns all quotes",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "A Quotes",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/docs"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "docs": {
+      "type": "object",
+      "required": [
+        "_id",
+        "name"
+      ],
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "dialog": {
+          "type": "string"
+        },
+        "character": {
+          "type": "string"
+        },
+        "movie": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+
+      }
+    }
+  }
+}

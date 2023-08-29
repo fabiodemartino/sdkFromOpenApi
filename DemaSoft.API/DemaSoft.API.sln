@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemaSoft.API", "DemaSoft.API.csproj", "{ADA09375-D674-4574-B698-9384E67C0839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemaSoft.CodeGenerator", "..\DemaSoft.CodeGenerator\DemaSoft.CodeGenerator.csproj", "{5A76AD44-E880-468E-9B69-6038856AE214}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemaSoft.Packager", "..\DemaSoft.Packager\DemaSoft.Packager.csproj", "{30C93CDC-FAA4-4889-85F5-9061AFA5CE4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemaSoft.CodeGeneratorTests", "..\DemaSoft.CodeGeneratorTests\DemaSoft.CodeGeneratorTests.csproj", "{389093AC-2471-496C-B52B-A69FA03873E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5579836-FAAA-40ED-931D-ABD491F87191}"
+	ProjectSection(SolutionItems) = preProject
+		..\design.md = ..\design.md
+		..\pull_request_template.md = ..\pull_request_template.md
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA09375-D674-4574-B698-9384E67C0839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA09375-D674-4574-B698-9384E67C0839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA09375-D674-4574-B698-9384E67C0839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA09375-D674-4574-B698-9384E67C0839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A76AD44-E880-468E-9B69-6038856AE214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A76AD44-E880-468E-9B69-6038856AE214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A76AD44-E880-468E-9B69-6038856AE214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A76AD44-E880-468E-9B69-6038856AE214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C93CDC-FAA4-4889-85F5-9061AFA5CE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C93CDC-FAA4-4889-85F5-9061AFA5CE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C93CDC-FAA4-4889-85F5-9061AFA5CE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C93CDC-FAA4-4889-85F5-9061AFA5CE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389093AC-2471-496C-B52B-A69FA03873E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389093AC-2471-496C-B52B-A69FA03873E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389093AC-2471-496C-B52B-A69FA03873E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389093AC-2471-496C-B52B-A69FA03873E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B210C19F-A13E-430A-86D4-2D4BDB70C57B}
+	EndGlobalSection
+EndGlobal

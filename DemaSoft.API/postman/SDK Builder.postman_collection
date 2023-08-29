@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "a7b33601-053e-418b-8c11-5c88b8ba0fd5",
+		"name": "SDK Builder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11038389"
+	},
+	"item": [
+		{
+			"name": "Post Upload JsonFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/source/repos/liblabchallenge/DemaSoft.API/Assets/petstore-minimal.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:7205/api/v1/GenerateCode",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7205",
+					"path": [
+						"api",
+						"v1",
+						"GenerateCode"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
